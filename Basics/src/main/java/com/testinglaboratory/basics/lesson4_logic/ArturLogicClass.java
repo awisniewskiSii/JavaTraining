@@ -7,7 +7,7 @@ public class ArturLogicClass {
         int one = 23;
         double two = 23.23;
 
-        String four = "Piątka";
+        String four = "Piatka";
         String five = "Piatka";
 
         System.out.println("Logical Operators < > == !=  <= >=");
