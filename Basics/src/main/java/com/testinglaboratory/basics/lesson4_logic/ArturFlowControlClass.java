@@ -11,6 +11,7 @@ public class ArturFlowControlClass {
 
         System.out.println("type number one:  ");
         firstNumberFromUser = scanner.nextInt();
+
         System.out.println("type number two:  ");
         secondNumberFromUser = scanner.nextInt();
 
@@ -23,7 +24,7 @@ public class ArturFlowControlClass {
         }
 
         if (firstNumberFromUser > 0 && secondNumberFromUser < 100) {
-            System.out.println("your number is bigger than 0 and smaller than 100");
+            System.out.println("your first number is smaller than 0 and the second one is bigger than 100");
         }
     }
 }
