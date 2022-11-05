@@ -23,7 +23,7 @@ public class ArturFlowControlClass {
             System.out.println("you first number is bigger than ONE");
         }
 
-        if (firstNumberFromUser > 10 && secondNumberFromUser < 100) {
+        if (firstNumberFromUser != secondNumberFromUser) {
             System.out.println("your first number is smaller than 0 and the second one is bigger than 100");
         }
     }
