@@ -24,7 +24,7 @@ public class ArturFlowControlClass {
         }
 
         if (firstNumberFromUser != secondNumberFromUser) {
-            System.out.println("your first number is smaller than 0 and the second one is bigger than 100");
+            System.out.println("your numbers are not equal");
         }
     }
 }
